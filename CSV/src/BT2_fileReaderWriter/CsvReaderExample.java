@@ -1,4 +1,4 @@
-package fileReaderWriter;
+package BT2_fileReaderWriter;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

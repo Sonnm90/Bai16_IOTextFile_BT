@@ -1,4 +1,4 @@
-package fileReaderWriter;
+package BT2_fileReaderWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -12,7 +12,7 @@ public class CsvWriterExample {
 
     // CSV file header
     private static final String FILE_HEADER = "id,code,name";
-    private static final int NUM_LINE_TO_SKIP =1;
+    private static final int NUM_LINE_TO_SKIP = 1;
 
     public static void main(String[] args) {
         String fileName = "data.csv";
@@ -24,15 +24,15 @@ public class CsvWriterExample {
         Country country1 = new Country(1, "US", "United States");
         Country country2 = new Country(2, "VN", "Viet Nam");
         Country country3 = new Country(3, "AU", "Australia");
+        Country country4 = new Country(4, "CN", "China");
 
         // Create a new list of fileReaderWriter.Country objects
         List<Country> countries = new ArrayList<>();
         countries.add(country1);
         countries.add(country2);
         countries.add(country3);
-
+        countries.add(country4);
         FileWriter fileWriter = null;
-
         try {
             fileWriter = new FileWriter(fileName);
 

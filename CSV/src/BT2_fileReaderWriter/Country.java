@@ -1,4 +1,4 @@
-package fileReaderWriter;
+package BT2_fileReaderWriter;
 
 public class Country {
 
